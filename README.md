@@ -1,2 +1,3 @@
-# odin-recipes
-html learning - creating web for recipes
+# odin-test
+This is an assignment at the odin project.
+It is small website where some recipes are described. 
