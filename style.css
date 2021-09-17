@@ -1,0 +1,57 @@
+<style>
+    
+    @import url('http://fonts.cdnfonts.com/css/mank-sans');
+    @font-face {
+        font-family: 'MankSans-Medium', sans-serif;
+        src: url(link href="http://fonts.cdnfonts.com/css/mank-sans" rel="stylesheet");
+    }
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul {
+        text-align: center;
+        font-family: 'MankSans-Medium', sans-serif;   
+        color: aliceblue;     
+    }
+    body {
+        background-color: #84a59d;
+    }
+
+/* Training section Below, Do not touch upper part */
+
+h2 {
+    font-size: 40px;
+    color: orange;
+}
+
+p {
+    color: #2f4c5c
+}
+
+/* The CSS box Model */
+
+/*margin: ყუთის გარშემო, ყველა მხრიდან იქმნება უხილავი სივრცე.
+სივრცე იზრდება ყველა მხარეს იმის მიხედვით თუ რამდენ პიქსელს მიუთითებ.
+თუ მოხდება დაკონკრეტება მაგ. margin-top, margin-bottom, left or right მაშინ
+უხილავე სივრცე შეიქმნება მხოლოდ იმ კონკრეტული მიმართულებით, ხოლო დანარჩენი დარჩება იგივე.
+  Border: border-left- border-top- border-bottom etc იგივენაირად მხოლოდ ვრცელდება კონკრეტულ ნაწილზე.
+ბორდერი არის - შემოღობვა.  აუცილებლად უნდა იყოს STYLE - წინააღმდეგ შემთხვევაში არგამოცნება - border-style.
+  Padding: ქმნის სივრცეს background-ში ანუ შიგნით, განსხვავებით მარჯინისგან. მარჯინი არის ბორდერის გარეთ,
+  ხოლო პადინგი არის ბორდერის შიგნით. 
+*/
+
+/* ასევე შეიძლება margin და padding დაიწეროს ასე - padding: 50px 100px 300px 25px top right bottom left შესაბამისად
+.box {
+    background: pink;
+    width: 300px;
+
+    margin: 100px;
+    border: 4px dotted red;
+    padding: 100px;
+    
+
+}
+*/
